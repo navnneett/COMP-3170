@@ -1,0 +1,97 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-image: url('https://cdn.prod.website-files.com/5b97453c8f2b579c7e60aaa3/6005de417eb946a84674729e_Hero-Image-2_SML.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.discography-app {
+  align-items: center;
+  max-width: 800px;
+  margin: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+h1 {
+  color: #000000;
+}
+
+.artist-img {
+  padding-left: 120px;
+}
+
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header div {
+  margin-top: 20px;
+}
+
+/* Album styles */
+h3 {
+  font-size: 24px;
+  background-color: #971c27;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+h3:hover {
+  background-color: #7d3493;
+}
+
+.album {
+  margin-bottom: 10px;
+}
+
+.album h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Track list styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background-color: #f1f1f1;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0;
+}
